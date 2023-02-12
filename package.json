@@ -1,14 +1,21 @@
 {
-  "name": "treaure-hunt",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "https://yhg.io/treasure-hunt",
-  "proxy": "http://localhost:5000",
+  "name": "durendal",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
+    "@imtbl/core-sdk": "^1.0.1",
     "@3rdweb/hooks": "^1.8.0",
     "@3rdweb/react": "^1.8.1",
     "@googlemaps/js-api-loader": "^1.13.2",
-    "@imtbl/core-sdk": "^1.0.1",
     "@imtbl/wallet-sdk-web": "^0.1.12",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -28,12 +35,6 @@
     "util": "^0.12.4",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -51,5 +52,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcusmattus/durendel123.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcusmattus/durendel123/issues"
+  },
+  "homepage": "https://github.com/marcusmattus/durendel123#readme"
 }
